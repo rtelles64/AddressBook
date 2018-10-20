@@ -1,0 +1,23 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses: []
+  first_name: Jason
+  middle_name: ''
+  last_name: Seifer
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Home
+    number: 123-456-7890
+  addresses:
+  - !ruby/object:Address
+    kind: Work
+    street_1: 123 Work Street
+    street_2: ''
+    city: Portland
+    state: OR
+    postal_code: '12345'
+  first_name: Nick
+  middle_name: Avery
+  last_name: Pettit
